@@ -5,40 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Cheff</title>
     <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header__logo">
-        <img
-          src="./assets/media/logo_img.png"
-          alt="Company logo"
-          class="header__logo__img"
-        />
-        <p class="header__logo__title">PIZZA CHEFF</p>
+      <div class="container">
+        <div class="header__logo">
+          <img
+            src="./assets/media/logo_img.png"
+            alt="Company logo"
+            class="header__logo__img"
+          />
+          <p class="header__logo__title">PIZZA CHEFF</p>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__list-item">
+              <a href="#" class="header__nav__list-item__link">Пиццы</a>
+            </li>
+            <li class="header__nav__list-item">
+              <a href="#" class="header__nav__list-item__link">Напитки</a>
+            </li>
+            <li class="header__nav__list-item">
+              <a href="#" class="header__nav__list-item__link"
+                >Доставка и оплата</a
+              >
+            </li>
+            <li class="header__nav__list-item">
+              <a href="#" class="header__nav__list-item__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__list-item">
-            <a href="" class="header__nav__list-item__link">Пиццы</a>
-          </li>
-          <li class="header__nav__list-item">
-            <a href="" class="header__nav__list-item__link">Напитки</a>
-          </li>
-          <li class="header__nav__list-item">
-            <a href="" class="header__nav__list-item__link"
-              >Доставка и оплата</a
-            >
-          </li>
-          <li class="header__nav__list-item">
-            <a href="" class="header__nav__list-item__link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
     </header>
     <main class="main">
-      <section class="main__descr-section">
+      <section class="main__descr-section container">
         <div class="main__descr-section__left">
-          <h1>Самая вкусная пицца в мире только в Pizza Cheff</h1>
+          <h1 class="main__descr-section__heading">
+            <span>Самая вкусная пицца в мире </span> только в Pizza Cheff
+          </h1>
           <ul class="main__descr-section__adv-list">
             <li class="main__descr-section__adv-list-item">
               <div class="main__descr-section__adv-list-item__img-wrapper">
@@ -106,6 +111,226 @@
           />
         </div>
       </section>
+      <section class="main__pizza-select-section container">
+        <h2 class="main__pizza-select-section__heading">
+          Выберите свою любимую пиццу
+        </h2>
+        <ul class="main__pizza-select-section__pizza-list">
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_1.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Мясная Делюкс
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы,
+              соус чили, ананасы
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_2.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Морская Премиум
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Перец, сыр, креветки, кальмары, мидии, лосось
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_3.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Бекон и Сосиски
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Бекон, сыр, сосиски, ананас, томатная паста
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_4.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Куриная Делюкс
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_5.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Барбекю Премиум
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_6.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Пепперони Дабл
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Пепперони, сыр, колбаса 2 видов: обжаренная и вареная
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_7.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Куриное трио
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр,
+              грибы, соус для пиццы
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+          <li class="main__pizza-select-section__pizza-list-item">
+            <img
+              src="./assets/media/pizza_8.png"
+              alt="pizza"
+              class="main__pizza-select-section__pizza-list-item__pizza-photo"
+              loading="lazy"
+            />
+            <h6 class="main__pizza-select-section__pizza-list-item__pizza-name">
+              Сырная
+            </h6>
+            <p
+              class="main__pizza-select-section__pizza-list-item__pizza-components"
+            >
+              Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный
+            </p>
+            <button class="main__pizza-select-section__pizza-list-item__btn">
+              В корзину
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="main__feedback-section container">
+        <div class="main__feedback-section__left">
+          <h2 class="main__feedback-section__heading">
+            Хватит думать! <span>Доставим заказ за 30 минут!</span>
+          </h2>
+          <p class="main__feedback-section__title">
+            Мы гарантированно доставим вашу пиццу за 30 минут с момента
+            оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете
+            весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы
+            гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен
+            и не остался голодный!
+          </p>
+        </div>
+        <div class="main__feedback-section__center">
+          <form class="main__feedback-section__form" id="form">
+            <input
+              class="main__feedback-section__form__input"
+              placeholder="Ваше имя"
+              type="text"
+              id="name"
+            />
+            <input
+              class="main__feedback-section__form__input"
+              placeholder="Адрес доставки"
+              type="text"
+              id="address"
+            />
+            <input
+              class="main__feedback-section__form__input"
+              placeholder="Телефон"
+              type="number"
+              id="number"
+            />
+            <button
+              class="main__feedback-section__form__btn"
+              type="button"
+              id="form-btn"
+            >
+              Оформить заказ
+            </button>
+          </form>
+        </div>
+        <div class="main__feedback-section__right">
+          <img
+            class="main__feedback-section__right__img"
+            src="./assets/media/pizza_slice.jpg"
+            alt="pizza slice"
+            loading="lazy"
+          />
+        </div>
+      </section>
     </main>
+
+    <div class="popup-wrapper">
+      <div class="popup-inner">
+        <h1>Спасибо за заказ!</h1>
+      </div>
+    </div>
+
+    <script src="./script/index.js" defer></script>
   </body>
 </html>
